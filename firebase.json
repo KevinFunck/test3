@@ -1,0 +1,11 @@
+{
+  "hosting": [
+    {
+      "target": "bossel-with-me",
+      "source": ".",
+      "frameworksBackend": {
+        "region": "europe-west1"
+      }
+    }
+  ]
+}

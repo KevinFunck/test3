@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "bossel": {
+      "hosting": {
+        "bossel-with-me": [
+          "bossel"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "bossel"
+  }
+}

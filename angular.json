@@ -99,8 +99,28 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "bossel-with-me:build:production",
+              "serveTarget": "bossel-with-me:serve:production"
+            },
+            "development": {
+              "buildTarget": "bossel-with-me:build:development",
+              "serveTarget": "bossel-with-me:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "250dc582-f3b6-4d0f-9393-2135fee823a2"
   }
 }
